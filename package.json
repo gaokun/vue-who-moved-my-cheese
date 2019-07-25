@@ -1,6 +1,6 @@
 {
   "name": "vue-who-moved-my-cheese",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.js",
   "scripts": {
     "preinstall": "node ./bin/preinstall.js"
