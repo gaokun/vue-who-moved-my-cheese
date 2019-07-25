@@ -53,7 +53,8 @@ try {
     const keyString = 'var dep = new Dep();';
     const keyStringIndex = content.indexOf(keyString, defineReactiveFunctionIndex);
     if (keyStringIndex > 0) {
-      const newContent = content.substring(0, keyStringIndex + keyString.length)
+      const newContent = '// vue-who-moved-my-cheese\n'
+        + content.substring(0, keyStringIndex + keyString.length)
         + 'dep.name = key; // vue-who-moved-my-cheese'
         + content.substring(keyStringIndex + keyString.length);
 
