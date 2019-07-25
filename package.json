@@ -1,0 +1,11 @@
+{
+  "name": "vue-who-moved-my-cheese",
+  "version": "0.0.2",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "node ./bin/preinstall.js"
+  },
+  "repository": "https://github.com/gaokun/vue-who-moved-my-cheese.git",
+  "author": "Ken <gaokun@nextop.cn>",
+  "license": "MIT"
+}
